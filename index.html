@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Scientific Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="calc-body">
+  <div id="output"></div>
+  <div class="btns-top">
+    <button class="ac">AC</button>
+    <button class="ac">CE</button>
+    <button class="op2">2nd</button>
+  </div>
+  <div class="funcs">
+    <button class="func" id="log">!</button>
+    <button class="func" id="tan">^</button>
+    <button class="func" id="CBRT">&radic;</button>
+    <button class="op">%</button>
+  </div>
+  <div class="funcs-2">
+    <button class="func" id="sin">(</button>
+    <button class="func" id="inv">&pi;</button>
+    <button class="func" id="cos">)</button>
+    <button class="op">÷</button>
+  </div>
+  <div class="nums-1">
+    <button class="num">1</button>
+    <button class="num">2</button>
+    <button class="num">3</button>
+    <button class="op">+</button>
+  </div>
+  <div class="num-2">
+    <button class="num">4</button>
+    <button class="num">5</button>
+    <button class="num">6</button>
+    <button class="op">-</button>
+  </div>
+  <div class="num-3">
+    <button class="num">7</button>
+    <button class="num">8</button>
+    <button class="num">9</button>
+    <button class="op">×</button>
+  </div>
+  <div class="num-4">
+    <button class="num">.</button>
+    <button class="num">0</button>
+    <button class="num">00</button>
+    <button class="op" onclick="eval()">=</button>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

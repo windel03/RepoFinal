@@ -1,0 +1,146 @@
+.calc-body {
+  background-color: black;
+  width: 340px;
+  height: 440px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #333;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+#output {
+  background-color: white;
+  position: absolute;
+  width: 340px;
+  margin: auto;
+  height: 90px;
+  font-size: 22pt;
+  text-align: right;
+  padding-left: 2px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 5px;
+}
+
+.btns-top {
+  position: absolute;
+  margin-top: 100px;
+  width: 342px;
+  text-align: right;
+  floar: right;
+}
+
+.ac {
+  width: 75px;
+  height: 40px;
+  margin-right: 8px;
+  font-size: 18pt;
+  background-color: grey;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 4px grey;
+  cursor: pointer;
+}
+
+.num {
+  width: 75px;
+  height: 40px;
+  margin-right: 8px;
+  font-size: 18pt;
+  background-color: #2d5391;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 4px grey;
+  cursor: pointer;
+}
+
+.funcs {
+  position: absolute;
+  margin-top: 150px;
+  width: 450px;
+}
+
+.nums-1 {
+  position: absolute;
+  margin-top: 250px;
+  width: 450px;
+}
+
+.op {
+  background-color: red;
+  color: white;
+  width: 75px;
+  height: 40px;
+  font-size: 18pt;
+  border: none;
+  border-radius: 5px;
+  margin-left: 6px;
+  box-shadow: 0 0 4px grey;
+  cursor: pointer;
+}
+
+.funcs-2 {
+  position: absolute;
+  margin-top: 200px;
+  width: 450px;
+}
+
+.op2 {
+  background-color: green;
+  color: white;
+  width: 75px;
+  height: 40px;
+  font-size: 18pt;
+  border: none;
+  border-radius: 5px;
+  margin-left: 6px;
+  box-shadow: 0 0 4px grey;
+  cursor: pointer;
+}
+
+.func {
+  width: 75px;
+  height: 40px;
+  margin-right: 8px;
+  font-size: 18pt;
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 4px grey;
+  cursor: pointer;
+}
+
+.num-2 {
+  position: absolute;
+  margin-top: 300px;
+  width: 450px;
+}
+
+.num-3 {
+  position: absolute;
+  margin-top: 350px;
+  width: 450px;
+}
+
+.num-4 {
+  position: absolute;
+  margin-top: 400px;
+  width: 450px;
+}
+
+button:hover {
+  box-shadow: 0 0 5px black inset;
+}
+
+button {
+  outline: none;
+}
